@@ -16,9 +16,6 @@ In this project, I deployed a mini honeynet in Azure, collecting log data from v
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
 
-## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
-
 The architecture of the mini honeynet in Azure consists of the following components:
 
 - Virtual Network (VNet)
@@ -60,6 +57,9 @@ Stop Time  2024-11-14 17:12:43
 | SecurityAlert            | 6
 | SecurityIncident         | 326
 | AzureNetworkAnalytics_CL | 3328
+
+## Architecture After Hardening / Security Controls
+![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
 
 ## Attack Maps Before Hardening / Security Controls
 
