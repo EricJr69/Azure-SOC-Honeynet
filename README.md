@@ -34,9 +34,18 @@ For the "BEFORE" metrics, resources were deployed with open Network Security Gro
 For the "AFTER" metrics, security was enhanced by restricting Network Security Groups to allow only admin workstation traffic, and activating built-in firewalls and Private Endpoints for all resources.
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+
+## NSG Allowed Inbound Malicious Flows
+![NSG Allowed Inbound Malicious Flows](https://github.com/user-attachments/assets/6b17fb43-be01-4a7d-95f0-a373d0a65fdd)<br> 
+
+## Linux Syslog Auth Failures
+![Linux Syslog Auth Failures](https://github.com/user-attachments/assets/2a2182c2-2fcd-4d72-85af-73d0870c663e)<br>
+
+## Windows RDP/SMB Auth Failures
+![Windows RDP/SMB Auth Failures](https://github.com/user-attachments/assets/6070c977-ef8b-4e5b-b4a9-d8c078fae916)<br>
+
+## MSSQL-Auth-Fail
+![MSSQL-Auth-Fail](https://github.com/user-attachments/assets/b0c2034b-58d2-49a9-a737-a55389b5233b)<br>
 
 ## Metrics Before Hardening / Security Controls
 
@@ -75,3 +84,8 @@ Stop Time	 2024-11-15T19:42:17
 This project demonstrated the value of security controls in a cloud-based environment. A mini honeynet was built in Microsoft Azure, and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents. Key findings included a significant reduction in security events and incidents after applying security controls, underscoring their importance.
 
 In a scenario where the network resources were heavily utilized by regular users, it's likely that the implementation of security controls would have resulted in an even greater number of security events and alerts being triggered during the 24-hour period.
+
+
+
+
+
